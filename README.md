@@ -15,10 +15,18 @@ Il repository è organizzato nel seguente modo:
 Assicurati di avere installato i seguenti pacchetti Python:
 
 - jupyter
-- transformers
+- torch
+- transformers (nella repository è presente un trainer modificato nella cartella modified in cui è stata aggiunta un ulteriore metrica per il processo di addestramento (BERT F1 score))
+- evaluate
+- huggingface_hub
 - trl
+- datasets
 - peft
 - ragas
+- nest_asyncio
+- langchain_openai
+- matplotlib
+- numpy
 
 Puoi installare i requisiti necessari utilizzando `pip`:
 
