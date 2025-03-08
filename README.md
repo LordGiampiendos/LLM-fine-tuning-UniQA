@@ -2,5 +2,4 @@
 
 Dateset scelto per l'addestramento e l'inferenza dei modelli:
 
-UniQA:
-https://github.com/CHILab1/UniQA/tree/main
+UniQA disponibile su github al seguente link: https://github.com/CHILab1/UniQA/tree/main
