@@ -1,22 +1,22 @@
 # LLM-fine-tuning-UnipaQA
 
-Questo repository contiene il codice per il fine-tuning di modelli di linguaggio utilizzando il dataset UniQA. Il dataset UniQA è disponibile su GitHub al seguente link: https://github.com/CHILab1/UniQA/tree/main.
+This repository contains the code for fine-tuning language models using the UniQA dataset. The UniQA dataset is available on GitHub at the following link: https://github.com/CHILab1/UniQA/tree/main.
 
-## Struttura del Repository
+## Repository Structure
 
-Il repository è organizzato nel seguente modo:
+The repository is organized as follows:
 
-- `Fine_Tuning/`: Contiene gli script e il codice necessari per il fine-tuning dei modelli.
-- `Inferenza_In-context_Learning/`: Include gli script per l'inferenza utilizzando l'in-contenxt learning e i risultati ottenuti in termini di risposte generate e metriche calcolate.
-- `Metriche-LLM-10-GPT/`: Contiene gli script per la valutazione con metriche di vautazione basate su IA (RAGAS/gpt-4o-mini).
+- `Fine_Tuning/`: Contains the scripts and code necessary for fine-tuning the models.
+- `Inferenza_In-context_Learning/`: Includes the scripts for inference using in-context learning and the results obtained in terms of generated responses and calculated metrics.
+- `Metriche-LLM-10-GPT/`: Contains the scripts for evaluation with AI-based evaluation metrics (RAGAS/gpt-4o-mini).
 
-## Requisiti
+## Requirements
 
-Assicurati di avere installato i seguenti pacchetti Python:
+Ensure that the following Python packages are installed:
 
 - jupyter
 - torch
-- transformers (nella repository è presente un trainer modificato nella cartella Modified in cui è stata aggiunta un ulteriore metrica per il processo di addestramento (BERT F1 score))
+- transformers (a modified trainer is present in the Modified folder, where an additional metric for the training process (BERT F1 score) has been added)
 - evaluate
 - huggingface_hub
 - trl
@@ -28,7 +28,7 @@ Assicurati di avere installato i seguenti pacchetti Python:
 - matplotlib
 - numpy
 
-Puoi installare i requisiti necessari utilizzando `pip`:
+You can install the necessary requirements using `pip`:
 
 ```bash
-pip install nome_pacchetto
+pip install package_name
