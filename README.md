@@ -16,7 +16,7 @@ Assicurati di avere installato i seguenti pacchetti Python:
 
 - jupyter
 - torch
-- transformers (nella repository è presente un trainer modificato nella cartella modified in cui è stata aggiunta un ulteriore metrica per il processo di addestramento (BERT F1 score))
+- transformers (nella repository è presente un trainer modificato nella cartella Modified in cui è stata aggiunta un ulteriore metrica per il processo di addestramento (BERT F1 score))
 - evaluate
 - huggingface_hub
 - trl
