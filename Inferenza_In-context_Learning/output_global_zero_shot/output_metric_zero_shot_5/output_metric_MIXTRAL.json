@@ -1,0 +1,72 @@
+[
+    {
+        "output_pairs": {
+            "output": [
+                " Ciao! Sono Unipa-GPT, il chatbot e assistente virtuale dell'Universit\u00e0 degli Studi di Palermo. Mi fa piacere assisterti nelle tue domande riguardanti la nostra universit\u00e0.\n</s>",
+                " Ciao! Mi chiamo Unipa-GPT, il chatbot e assistente virtuale dell'Universit\u00e0 degli Studi di Palermo. Sono qui per fornirti informazioni sulla materia LINGUISTICA GENERALE del corso di laurea triennale in lingue e letterature - studi interculturali curriculum lingue e letterature - studi interculturali (L-11).\n\nLINGUISTICA GENERALE \u00e8 un insegnamento del primo anno, del valore di 9 CFU, e si svolge nel primo semestre. Il docente responsabile di questo insegnamento \u00e8 NARDI. La classe di laurea in questione appartiene alla categoria L-11 (Lingue e culture moderne).\n\nLa laurea triennale in lingue e letterature - studi interculturali curriculum lingue e letterature - studi interculturali (L-11) ha una durata di 3 anni, con un numero massimo di 500 posti disponibili per l'ammissione. Il dipartimento responsabile \u00e8 il Dipartimento di Scienze Umanistiche, e il codice del corso \u00e8 2197.\n\nSe hai bisogno di informazioni pi\u00f9 dettagliate, ti consiglio di visitare il sito web dell'Universit\u00e0 degli Studi di Palermo all'indirizzo <https://www.unipa.it/>. In alternativa, puoi consultare la documentazione che ti ho fornito qui sopra per trovare maggiori dettagli sulla materia e sul corso di laurea.\n\nIn bocca al lupo per i tuoi studi!</s>",
+                " Ciao! Piacere di conoscerti. Sono Unipa-GPT, il chatbot e assistente virtuale dell'Universit\u00e0 degli Studi di Palermo. Sono qui per fornirti informazioni utili riguardanti l'ateneo.\n\nPer quanto riguarda la materia PROVA FINALE del corso di laurea triennale in Lingue e Letterature - Studi Interculturali, curriculum Lingue e Letterature - Studi Interculturali (L-11), puoi trovare le informazioni di seguito:\n\n- Nome della materia: PROVA FINALE\n- Codice: 05917\n- CFU (Crediti Formativi Universitari): 3\n- Periodo: 2\u00b0 semestre\n- SSD (Settore Scientifico Disciplinare): Non specificato\n\nLa prova finale \u00e8 l'esame finale che gli studenti devono sostenere per conseguire la laurea. Consiste in una tesi scritta su un argomento a scelta dello studente, da discutere di fronte a una commissione. Per maggiori dettagli, ti consiglio di consultare il sito web del Dipartimento di Scienze Umanistiche o contattare direttamente il tutor didattico del corso di studi.\n\nSpero di averti fornito tutte le informazioni necessarie. Se hai altre domande, non esitare a chiedere! Se non sono in grado di rispondere, ti suggerir\u00f2 di consultare il sito web dell'Universit\u00e0 di Palermo all'indirizzo <https://www.unipa.it/>. Buona giornata!</s>",
+                " Ciao! Sono Unipa-GPT, il chatbot e assistente virtuale dell'Universit\u00e0 degli Studi di Palermo. Mi fa piacere poterti fornire informazioni sulla materia \"ATTIVIT\u00c0 FORMATIVE PER LA PROVA FINALE - INFORMATION LITERACY\" del corso di laurea triennale in Scienze dell'Educazione, curriculum Educazione Prima Infanzia, sede Agrigento.\n\nSi tratta di un insegnamento del terzo anno, del valore di 3 CFU, che si svolge nel secondo semestre. Purtroppo, non ho a disposizione maggiori dettagli riguardo a questa specifica materia, quali ad esempio il nome del docente o il programma del corso. Ti consiglio di visitare il sito web dell'Universit\u00e0 degli Studi di Palermo, alla pagina del corso di laurea in questione (http://www.unipa.it/struttura.html?id=1883), per trovare informazioni pi\u00f9 approfondite e aggiornate.\n\nIn generale, l'obiettivo di questo insegnamento \u00e8 probabilmente quello di fornire agli studenti competenze informative e digitali necessarie per la preparazione e la stesura della prova finale del corso di laurea.\n\nSe hai altre domande, non esitare a chiedere! Se non sono in grado di fornirti una risposta esaustiva, ti indicher\u00f2 sicuramente come trovare le informazioni che stai cercando.</s>",
+                " Ciao! Sono Unipa-GPT, il chatbot e assistente virtuale dell'Universit\u00e0 degli Studi di Palermo. Sono qui per fornirti informazioni utili riguardanti la nostra universit\u00e0.\n</s>"
+            ],
+            "reference": [
+                "Le materie del primo anno del corso di laurea triennale in lingue e letterature - studi interculturali curriculum lingue e letterature - studi interculturali (l-11) sono: LINGUISTICA GENERALE, ALTRE CONOSCENZE UTILI PER L'INSERIMENTO NEL MONDO DEL LAVORO e LINGUISTICA ITALIANA. \u00c8 previsto lo svolgimento di materie opzionali. All'interno del Gruppo di attivit\u00e0 formative opzionali \u00e8 possibile scegliere tra le seguenti materie: LINGUA E TRADUZIONE ARABA I, LINGUA E TRADUZIONE FRANCESE I, LINGUA E TRADUZIONE INGLESE I, LINGUA E TRADUZIONE RUSSA I, LINGUA E TRADUZIONE SPAGNOLA I, LINGUA E TRADUZIONE TEDESCA I, LINGUA E TRADUZIONE CINESE I. All'interno del Gruppo di attivit\u00e0 formative opzionali II \u00e8 possibile scegliere tra le seguenti materie: STORIA CONTEMPORANEA, STORIA MODERNA, STORIA E ISTITUZIONI DEL MONDO ARABO E ISLAMICO. ",
+                "LINGUISTICA GENERALE \u00e8 una materia di 9 CFU del primo anno del corso di laurea triennale in lingue e letterature - studi interculturali curriculum lingue e letterature - studi interculturali (l-11). L'insegnamento \u00e8 tenuto dal professore NARDI. Le lezioni si terranno nel 1\u00b0 semestre. Per maggiori informazioni consulta il sito del corso http://www.unipa.it/struttura.html?id=1558.",
+                "PROVA FINALE \u00e8 una materia di 3 CFU del terzo anno del corso di laurea triennale in lingue e letterature - studi interculturali curriculum lingue e letterature - studi interculturali (l-11). Le lezioni si terranno nel 2\u00b0 semestre. Per maggiori informazioni consulta il sito del corso http://www.unipa.it/struttura.html?id=1558.",
+                "ATTIVIT\u00c0 FORMATIVE PER LA PROVA FINALE - INFORMATION LITERACY \u00e8 una materia di 3 CFU del terzo anno del corso di laurea triennale in scienze dell'educazione curriculum educazione prima infanzia sede agrigento. Le lezioni si terranno nel 2\u00b0 semestre. Per maggiori informazioni consulta il sito del corso http://www.unipa.it/struttura.html?id=1883.",
+                "METODI DI VALUTAZIONE DI EVIDENCE BASED PROGRAMS (LAB. TPV INT.) \u00e8 una materia di 1 CFU del primo anno del corso di laurea magistrale in psicologia del ciclo di vita. Le lezioni si terranno nel 2\u00b0 semestre. Per maggiori informazioni consulta il sito del corso http://www.unipa.it/struttura.html?id=1485."
+            ]
+        },
+        "bleu_score": {
+            "bleu": 0.12084825588953929,
+            "precisions": [
+                0.22982216142270862,
+                0.128099173553719,
+                0.09431345353675451,
+                0.07681564245810056
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.7404761904761905,
+            "translation_length": 731,
+            "reference_length": 420
+        },
+        "rouge_score": {
+            "rouge1": 0.2614211719648061,
+            "rouge2": 0.14770363351822083,
+            "rougeL": 0.1967334328230427,
+            "rougeLsum": 0.22173813373542345
+        },
+        "bert_score": {
+            "precision": [
+                0.6037695407867432,
+                0.7152701616287231,
+                0.6334118843078613,
+                0.66776442527771,
+                0.6453614234924316
+            ],
+            "recall": [
+                0.4977349638938904,
+                0.8030198812484741,
+                0.759928822517395,
+                0.8275418877601624,
+                0.5876668095588684
+            ],
+            "f1": [
+                0.5456485748291016,
+                0.7566092610359192,
+                0.6909264326095581,
+                0.7391168475151062,
+                0.6151643991470337
+            ],
+            "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.46.3)"
+        },
+        "meteor_score": {
+            "meteor": 0.3421310130391582
+        },
+        "perplexity_score": {
+            "mean_perplexity": 4.94
+        },
+        "perplexity_z_score": {
+            "mean_perplexity": 7.14
+        }
+    }
+]

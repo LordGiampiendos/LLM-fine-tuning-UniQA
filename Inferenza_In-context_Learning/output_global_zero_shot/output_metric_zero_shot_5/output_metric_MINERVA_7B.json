@@ -1,0 +1,87 @@
+[
+    {
+        "output_pairs": {
+            "output": [
+                " \n\n Il Corso di Laurea Triennale in Lingue e Letterature - Studi Interculturali presso l'Universit\u00e0 degli Studi di Palermo offre una formazione completa nelle discipline linguistiche e letterarie, con particolare attenzione agli studi interculturali. Gli insegnamenti previsti nel piano didattico includono la lingua e letteratura italiana, la linguistica generale, la traduzione, la mediazione linguistica, la letteratura italiana contemporanea e gli studi interculturali. La durata complessiva del corso \u00e8 di tre anni accademici, durante i quali gli studenti possono scegliere tra diversi gruppi di attivit\u00e0 formative opzionali, come il tirocinio formativo e di orientamento, per arricchire la loro esperienza professionale e culturale.<|eot_id|>",
+                " \n\n Ciao! Sono un assistente virtuale dell'Universit\u00e0 degli Studi di Palermo. Posso aiutarti con qualsiasi altra informazione o risposta relativa all'argomento richiesto. Fammi sapere come posso esserti d'aiuto.<|eot_id|>",
+                " \n\n Grazie per la tua richiesta. Ti fornir\u00f2 le informazioni richieste sull'Universit\u00e0 degli Studi di Palermo, ma devo chiarire alcune cose importanti prima di procedere.\n\nL'Universit\u00e0 degli Studi di Palermo \u00e8 un'universit\u00e0 pubblica situata nella citt\u00e0 di Palermo, in Sicilia. \u00c8 stata fondata nel 1806 ed \u00e8 una delle pi\u00f9 antiche universit\u00e0 italiane ancora attive. La sua offerta formativa include corsi di laurea triennali, magistrali e dottorati di ricerca nelle aree umanistiche, scientifiche e tecnologiche.\n\nL'Universit\u00e0 ha diverse sedi sparse sul territorio palermitano, tra cui il Campus Universitario di Viale delle Scienze, dove si trovano i dipartimenti principali, aule studio, biblioteche e servizi per gli studenti. Inoltre, ci sono altre strutture decentrate presenti in diversi quartieri della citt\u00e0, come il Polo Universitario di Trapani, quello di Agrigento e il Centro Linguistico di Ateneo.\n\nL'Ateneo offre numerose opportunit\u00e0 agli studenti, sia durante il percorso formativo che dopo la laurea attraverso programmi di mobilit\u00e0 internazionale, tirocini curriculari ed extracurriculari, borse di studio e premi di merito. Inoltre, l'Universit\u00e0 promuove attivit\u00e0 culturali e sportive per favorire lo sviluppo personale e professionale dei suoi iscritti.<|eot_id|>",
+                " \n\n Salve, sono l'Assistente Virtuale dell'Universit\u00e0 degli Studi di Palermo. Sono qui per aiutarti con le tue domande relative all'Universit\u00e0 degli Studi di Palermo. Posso aiutarti con qualsiasi informazione o dubbio tu possa avere riguardo ai corsi, agli esami, alle attivit\u00e0 formative e alle altre questioni riguardanti la vita accademica dell'universit\u00e0. Se hai bisogno di ulteriori informazioni o se desideri chiedere qualcosa di specifico, non esitare a chiedermi!<|eot_id|>",
+                " \n\n Salve! Sono l'Assistente Virtuale UNIPA-GPT, sono qui per aiutarti con le tue domande sull'Universit\u00e0 degli Studi di Palermo. Puoi chiedermi qualsiasi informazione riguardo ai corsi di studio, agli esami o all'organizzazione generale dell'Ateneo.<|eot_id|>"
+            ],
+            "reference": [
+                "Le materie del primo anno del corso di laurea triennale in lingue e letterature - studi interculturali curriculum lingue e letterature - studi interculturali (l-11) sono: LINGUISTICA GENERALE, ALTRE CONOSCENZE UTILI PER L'INSERIMENTO NEL MONDO DEL LAVORO e LINGUISTICA ITALIANA. \u00c8 previsto lo svolgimento di materie opzionali. All'interno del Gruppo di attivit\u00e0 formative opzionali \u00e8 possibile scegliere tra le seguenti materie: LINGUA E TRADUZIONE ARABA I, LINGUA E TRADUZIONE FRANCESE I, LINGUA E TRADUZIONE INGLESE I, LINGUA E TRADUZIONE RUSSA I, LINGUA E TRADUZIONE SPAGNOLA I, LINGUA E TRADUZIONE TEDESCA I, LINGUA E TRADUZIONE CINESE I. All'interno del Gruppo di attivit\u00e0 formative opzionali II \u00e8 possibile scegliere tra le seguenti materie: STORIA CONTEMPORANEA, STORIA MODERNA, STORIA E ISTITUZIONI DEL MONDO ARABO E ISLAMICO. ",
+                "LINGUISTICA GENERALE \u00e8 una materia di 9 CFU del primo anno del corso di laurea triennale in lingue e letterature - studi interculturali curriculum lingue e letterature - studi interculturali (l-11). L'insegnamento \u00e8 tenuto dal professore NARDI. Le lezioni si terranno nel 1\u00b0 semestre. Per maggiori informazioni consulta il sito del corso http://www.unipa.it/struttura.html?id=1558.",
+                "PROVA FINALE \u00e8 una materia di 3 CFU del terzo anno del corso di laurea triennale in lingue e letterature - studi interculturali curriculum lingue e letterature - studi interculturali (l-11). Le lezioni si terranno nel 2\u00b0 semestre. Per maggiori informazioni consulta il sito del corso http://www.unipa.it/struttura.html?id=1558.",
+                "ATTIVIT\u00c0 FORMATIVE PER LA PROVA FINALE - INFORMATION LITERACY \u00e8 una materia di 3 CFU del terzo anno del corso di laurea triennale in scienze dell'educazione curriculum educazione prima infanzia sede agrigento. Le lezioni si terranno nel 2\u00b0 semestre. Per maggiori informazioni consulta il sito del corso http://www.unipa.it/struttura.html?id=1883.",
+                "METODI DI VALUTAZIONE DI EVIDENCE BASED PROGRAMS (LAB. TPV INT.) \u00e8 una materia di 1 CFU del primo anno del corso di laurea magistrale in psicologia del ciclo di vita. Le lezioni si terranno nel 2\u00b0 semestre. Per maggiori informazioni consulta il sito del corso http://www.unipa.it/struttura.html?id=1485."
+            ]
+        },
+        "bleu_score": {
+            "bleu": 0.012158813126583519,
+            "precisions": [
+                0.13765182186234817,
+                0.018404907975460124,
+                0.004132231404958678,
+                0.0020876826722338203
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.1761904761904762,
+            "translation_length": 494,
+            "reference_length": 420
+        },
+        "rouge_score": {
+            "rouge1": 0.16457400903916405,
+            "rouge2": 0.03567135842880524,
+            "rougeL": 0.10411813468490443,
+            "rougeLsum": 0.10230397647944622
+        },
+        "bert_score": {
+            "precision": [
+                0.670232892036438,
+                0.6314424276351929,
+                0.5967366695404053,
+                0.6018882989883423,
+                0.6399199366569519
+            ],
+            "recall": [
+                0.5800197720527649,
+                0.6037275791168213,
+                0.6240322589874268,
+                0.5724226236343384,
+                0.6191319823265076
+            ],
+            "f1": [
+                0.6218715906143188,
+                0.6172740459442139,
+                0.6100793480873108,
+                0.5867857933044434,
+                0.6293543577194214
+            ],
+            "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.46.3)"
+        },
+        "meteor_score": {
+            "meteor": 0.12128191101573552
+        },
+        "perplexity_score": {
+            "perplexities": [
+                4.5040283203125,
+                8.870662689208984,
+                2.726921558380127,
+                4.701991081237793,
+                8.132984161376953
+            ],
+            "mean_perplexity": 5.787317562103271
+        },
+        "perplexity_z_score": {
+            "perplexities": [
+                4.832297325134277,
+                10.188459396362305,
+                3.777153968811035,
+                5.193206310272217,
+                8.72511100769043
+            ], 
+            "mean_perplexity": 6.543245601654053
+        },
+        "semantic_similarity_score":0.75
+    }
+]

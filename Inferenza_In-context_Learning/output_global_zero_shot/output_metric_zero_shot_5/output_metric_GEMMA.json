@@ -1,0 +1,78 @@
+[
+    {
+        "output_pairs": {
+            "output": [
+                "\nCiao! Sono Unipa-GPT, il tuo assistente virtuale. \n\nLe materie del primo anno del corso di laurea triennale in lingue e letterature - studi interculturali curriculum lingue e letterature - studi interculturali (L-11) sono:\n\n* **LINGUISTICA GENERALE** (9 CFU)\n* **ALTRE CONOSCENZE UTILI PER L'INSERIMENTO NEL MONDO DEL LAVORO** (3 CFU)\n* **LINGUISTICA ITALIANA** (9 CFU)\n\n\nInoltre, sono previsti alcuni gruppi di attivit\u00e0 formative opzionali. \n\nPer maggiori informazioni, ti consiglio di visitare il sito dell'Universit\u00e0: [https://www.unipa.it/](https://www.unipa.it/)\n\n\n\n<end_of_turn><eos>",
+                "\nCiao! Sono Unipa-GPT, il tuo assistente virtuale. \n\nLa materia LINGUISTICA GENERALE, con 9 CFU, \u00e8 prevista per il **primo semestre** del primo anno del corso di laurea in Lingue e Letterature - Studi Interculturali. \n\nIl docente responsabile \u00e8 il Prof. NARDI. \n\n\nPer maggiori informazioni dettagliate sul programma e gli argomenti trattati, ti consiglio di consultare il sito web dell'Universit\u00e0 degli Studi di Palermo: [https://www.unipa.it/](https://www.unipa.it/). \n<end_of_turn><eos>",
+                "\nCiao! Sono Unipa-GPT, il tuo assistente virtuale. \n\nLa materia PROVA FINALE per il corso di laurea triennale in lingue e letterature - studi interculturali curriculum lingue e letterature - studi interculturali (L-11) ha un valore di 3 CFU e si svolge al secondo semestre del terzo anno. \n\nPer informazioni pi\u00f9 dettagliate, ti consiglio di consultare il sito dell'Universit\u00e0 degli Studi di Palermo: [https://www.unipa.it/](https://www.unipa.it/). \n\n\n<end_of_turn><eos>",
+                "\nCiao! Sono Unipa-GPT, il tuo assistente virtuale. \n\nPer quanto riguarda l'insegnamento \"Attivit\u00e0 formative per la prova finale - Information Literacy\", ti posso dire che \u00e8 un corso di 3 CFU che si tiene nel secondo semestre del terzo anno del corso di laurea in Scienze dell'educazione, curriculum Educazione prima infanzia, sede Agrigento. \n\n\nSpero di essere stato utile!  \n<end_of_turn><eos>",
+                "\nCiao! Sono Unipa-GPT, il tuo assistente virtuale. \n\nLa materia \"METODI DI VALUTAZIONE DI EVIDENCE BASED PROGRAMS (LAB. TPV INT.)\" \u00e8 un laboratorio di 1 CFU che si tiene al secondo semestre del corso di laurea magistrale in Psicologia del Ciclo di Vita.  \n\n\nPer maggiori informazioni specifiche sulla materia, come il programma dettagliato e i docenti, ti consiglio di consultare il sito dell'Universit\u00e0: [https://www.unipa.it/](https://www.unipa.it/).  \n<end_of_turn><eos>"
+            ],
+            "reference": [
+                "Le materie del primo anno del corso di laurea triennale in lingue e letterature - studi interculturali curriculum lingue e letterature - studi interculturali (l-11) sono: LINGUISTICA GENERALE, ALTRE CONOSCENZE UTILI PER L'INSERIMENTO NEL MONDO DEL LAVORO e LINGUISTICA ITALIANA. \u00c8 previsto lo svolgimento di materie opzionali. All'interno del Gruppo di attivit\u00e0 formative opzionali \u00e8 possibile scegliere tra le seguenti materie: LINGUA E TRADUZIONE ARABA I, LINGUA E TRADUZIONE FRANCESE I, LINGUA E TRADUZIONE INGLESE I, LINGUA E TRADUZIONE RUSSA I, LINGUA E TRADUZIONE SPAGNOLA I, LINGUA E TRADUZIONE TEDESCA I, LINGUA E TRADUZIONE CINESE I. All'interno del Gruppo di attivit\u00e0 formative opzionali II \u00e8 possibile scegliere tra le seguenti materie: STORIA CONTEMPORANEA, STORIA MODERNA, STORIA E ISTITUZIONI DEL MONDO ARABO E ISLAMICO. ",
+                "LINGUISTICA GENERALE \u00e8 una materia di 9 CFU del primo anno del corso di laurea triennale in lingue e letterature - studi interculturali curriculum lingue e letterature - studi interculturali (l-11). L'insegnamento \u00e8 tenuto dal professore NARDI. Le lezioni si terranno nel 1\u00b0 semestre. Per maggiori informazioni consulta il sito del corso http://www.unipa.it/struttura.html?id=1558.",
+                "PROVA FINALE \u00e8 una materia di 3 CFU del terzo anno del corso di laurea triennale in lingue e letterature - studi interculturali curriculum lingue e letterature - studi interculturali (l-11). Le lezioni si terranno nel 2\u00b0 semestre. Per maggiori informazioni consulta il sito del corso http://www.unipa.it/struttura.html?id=1558.",
+                "ATTIVIT\u00c0 FORMATIVE PER LA PROVA FINALE - INFORMATION LITERACY \u00e8 una materia di 3 CFU del terzo anno del corso di laurea triennale in scienze dell'educazione curriculum educazione prima infanzia sede agrigento. Le lezioni si terranno nel 2\u00b0 semestre. Per maggiori informazioni consulta il sito del corso http://www.unipa.it/struttura.html?id=1883.",
+                "METODI DI VALUTAZIONE DI EVIDENCE BASED PROGRAMS (LAB. TPV INT.) \u00e8 una materia di 1 CFU del primo anno del corso di laurea magistrale in psicologia del ciclo di vita. Le lezioni si terranno nel 2\u00b0 semestre. Per maggiori informazioni consulta il sito del corso http://www.unipa.it/struttura.html?id=1485."
+            ]
+        },
+        "bleu_score": {
+            "bleu": 0.2418050430558802,
+            "precisions": [
+                0.40370370370370373,
+                0.25794392523364484,
+                0.19811320754716982,
+                0.1657142857142857
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 1.2857142857142858,
+            "translation_length": 540,
+            "reference_length": 420
+        },
+        "rouge_score": {
+            "rouge1": 0.5232752509452743,
+            "rouge2": 0.37959514170040487,
+            "rougeL": 0.4534900409494609,
+            "rougeLsum": 0.4591505607253639
+        },
+        "bert_score": {
+            "precision": [
+                0.7402563095092773,
+                0.7585731744766235,
+                0.7866851091384888,
+                0.6958543658256531,
+                0.7889424562454224
+            ],
+            "recall": [
+                0.7534610033035278,
+                0.8002129793167114,
+                0.8381959199905396,
+                0.6660709977149963,
+                0.8537101745605469
+            ],
+            "f1": [
+                0.7468003034591675,
+                0.7788369059562683,
+                0.8116239905357361,
+                0.680637001991272,
+                0.8200494647026062
+            ],
+            "hashcode": "bert-base-multilingual-cased_L9_no-idf_version=0.3.12(hug_trans=4.44.0)"
+        },
+        "meteor_score": {
+            "meteor": 0.5096923514207462
+        },
+        "perplexity_score": {
+            "perplexities": [
+                6.594205856323242, 
+                7.399443626403809, 
+                8.966537475585938, 
+                14.926189422607422, 
+                12.378154754638672
+            ], 
+            "mean_perplexity": 10.052906227111816
+        },
+        "perplexity_z_score": 9.21,
+        "semantic_similarity_score": 0.92
+    }
+]
