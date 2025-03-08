@@ -16,7 +16,7 @@ Ensure that the following Python packages are installed:
 
 - jupyter
 - torch
-- transformers (a modified trainer is present in the Fine_Tunig/Modified folder, where an additional metric for the training process (BERT F1 score) has been added)
+- transformers (a modified trainer is present in the Fine_Tuning/Modified folder, where an additional metric for the training process (BERT F1 score) has been added)
 - evaluate
 - huggingface_hub
 - trl
