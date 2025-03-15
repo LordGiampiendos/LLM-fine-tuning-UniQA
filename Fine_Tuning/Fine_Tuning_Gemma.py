@@ -2,7 +2,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 from peft import LoraConfig
 
 token = "token"
-model_name_or_path = "/leonardo_work/IscrC_DOC-VLM/isiragusa/LLM/gemma2-9b-inst"
+model_name_or_path = "/path/LLM/gemma2-9b-inst"
 
 peft_config = LoraConfig(
     r=16,
@@ -27,7 +27,7 @@ tokenizer.padding_side = 'right'
 
 import json
 
-with open('/leonardo_work/IscrC_DOC-VLM/gbarbaro/Dataset/it_train.json', 'r') as file:
+with open('/path/Dataset/it_train.json', 'r') as file:
     data = json.load(file)
     
 from sklearn.model_selection import train_test_split
@@ -81,7 +81,7 @@ tokenized_datasets = DatasetDict({"train": tokenized_datasets_train, "validation
 from trl import SFTTrainer, SFTConfig
 
 training_args = SFTConfig(
-    output_dir="/leonardo_work/IscrC_DOC-VLM/gbarbaro/output_dir",
+    output_dir="output_dir",
     num_train_epochs=30,
     per_device_train_batch_size=2,   
     per_device_eval_batch_size=10,
