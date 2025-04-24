@@ -46,7 +46,7 @@ You can install the necessary requirements using `pip`:
 pip install package_name
 ```
 
-For the MMLU-IT evaluation you should use the Language Model Evaluation Harness.
+For the MMLU-IT evaluation you should use the Language Model Evaluation Harness at the following link: https://github.com/EleutherAI/lm-evaluation-harness.
 
 ```
 @misc{eval-harness,
