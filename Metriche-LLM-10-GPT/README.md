@@ -1,10 +1,10 @@
 ## LLM_RAG_Metrics.ipynb
 
-Contains
+Contains the code relating to the calculation of RAG metrics.
 
 ## Metriche_RAG.py
 
-Contains
+This is the script that joins the notebook code.
 
 ## output_total.zip
 
