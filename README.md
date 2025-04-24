@@ -46,12 +46,20 @@ You can install the necessary requirements using `pip`:
 pip install package_name
 ```
 
-You could also creat a virtual environment
+You could also create a virtual environment in python by venv or conda:
 
+Venv:
 ```bash
 python -m venv env_name
 
 .\env_name\Scripts\activate
+```
+
+Conda:
+```bash
+conda create --name myenv python=3.9
+
+conda activate myenv
 ```
 
 ## MMLU-IT Evaluation
