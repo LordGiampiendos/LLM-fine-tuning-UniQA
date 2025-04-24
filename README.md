@@ -46,6 +46,14 @@ You can install the necessary requirements using `pip`:
 pip install package_name
 ```
 
+You could also creat a virtual environment
+
+```bash
+python -m venv env_name
+
+.\env_name\Scripts\activate
+```
+
 ## MMLU-IT Evaluation
 
 For the MMLU-IT evaluation you should use the Language Model Evaluation Harness at the following link: https://github.com/EleutherAI/lm-evaluation-harness.
