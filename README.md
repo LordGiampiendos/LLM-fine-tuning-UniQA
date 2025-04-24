@@ -86,11 +86,13 @@ In the job script:
 module load python
 module load cuda
 source /leonardo_work/IscrC_DOC-VLM/gbarbaro/my_venv/bin/activate
-
+```
+for python scripts
+```
 python /leonardo_work/path/Codice/Python.py
-
-or for MMLU-IT evaluation
-
+```
+or for MMLU-IT evaluation:
+```
 lm-eval --model hf --model_args pretrained=/leonardo_work/path/best_model --tasks m_mmlu_it --num_fewshot 5 --device cuda --batch_size 1 --log_samples --output_path results
 ```
 
