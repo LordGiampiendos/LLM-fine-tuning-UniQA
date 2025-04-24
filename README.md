@@ -46,7 +46,7 @@ You can install the necessary requirements using `pip`:
 pip install package_name
 ```
 
-You could also create a virtual environment in python by venv or conda:
+You could also create a virtual environment in python by venv or conda (I used Windows):
 
 ### Venv:
 ```bash
