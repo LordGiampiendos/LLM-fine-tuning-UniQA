@@ -52,7 +52,11 @@ You could also create a virtual environment in python by venv or conda:
 ```bash
 python -m venv env_name
 
+Windows
 .\env_name\Scripts\activate
+
+Linux
+source env_name/bin/activate
 ```
 
 ### Conda:
