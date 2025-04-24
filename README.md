@@ -85,7 +85,7 @@ In the job script:
 ...
 module load python
 module load cuda
-source /leonardo_work/IscrC_DOC-VLM/gbarbaro/my_venv/bin/activate
+source /leonardo_work/path/my_venv/bin/activate
 ```
 for python scripts
 ```
