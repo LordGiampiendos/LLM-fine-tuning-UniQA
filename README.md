@@ -44,6 +44,7 @@ You can install the necessary requirements using `pip`:
 
 ```bash
 pip install package_name
+```
 
 For the MMLU-IT evaluation you should use the Language Model Evaluation Harness.
 
