@@ -66,6 +66,34 @@ conda create --name myenv python=3.9
 conda activate myenv
 ```
 
+I used two main server: CHILab server and LEONARDO by CINECA.
+
+### LEONARDO
+If you want to execute this code in LEONARDO with VENV, you should follow this steps for the initialization.
+
+```
+module load python
+module load cuda
+
+... create VENV ...
+```
+
+In the job script:
+```
+...
+#SBATCH --gres=gpu:4
+...
+module load python
+module load cuda
+source /leonardo_work/IscrC_DOC-VLM/gbarbaro/my_venv/bin/activate
+
+python /leonardo_work/path/Codice/Python.py
+
+or for MMLU-IT evaluation
+
+lm-eval --model hf --model_args pretrained=/leonardo_work/path/best_model --tasks m_mmlu_it --num_fewshot 5 --device cuda --batch_size 1 --log_samples --output_path results
+```
+
 ## MMLU-IT Evaluation
 
 For the MMLU-IT evaluation you should use the Language Model Evaluation Harness at the following link: https://github.com/EleutherAI/lm-evaluation-harness.
