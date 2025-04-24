@@ -63,6 +63,6 @@ For the MMLU-IT evaluation you should use the Language Model Evaluation Harness 
 }
 ```
 
-## Other things
+## Other Things
 
 For other information consult the README.md in every folder.
