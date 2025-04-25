@@ -1,6 +1,6 @@
 import json
 
-# Datset di test
+# Test Datasets
 with open('/path/Dataset/it_test.json', 'r') as file:
     data = json.load(file)
 
@@ -8,11 +8,11 @@ instruction = "Sei Unipa-GPT, il chatbot e assistente virtuale dell'Università 
 
 from huggingface_hub import login
 
-# Login Hugging Face
+# Hugging Face Login
 token = "token"
 login(token=token)
 
-# Metodo per l
+# Method for Inference on a Sample
 def inference(model, tokenizer, messages, word, token, top_p, temperature, minerva):
     if minerva:
         prompt = messages
@@ -32,6 +32,7 @@ def inference(model, tokenizer, messages, word, token, top_p, temperature, miner
     
 import evaluate
 
+# Evaluation Metrics Method
 def evaluate_metrics(references, predictions, model_id):
     bleu = evaluate.load("bleu")
     bleu_score = bleu.compute(predictions=predictions, references=references)
@@ -52,11 +53,13 @@ def evaluate_metrics(references, predictions, model_id):
     
     return bleu_score, rouge_score, bert_score, meteor_score, perplexity_score, perplexity_z_score
 
+# Mean Method
 def mean(list):
     mean = sum(list)/len(list)
     
     return mean
 
+# Method for Zero-Shot Inference on all Samples, Including the Chat Template Definition for each Model 
 def inferences(model, tokenizer, data, word, model_id, token = 512, top_p = 0.9, temperature = 0.6, gemma = False, minerva = False):
     output_pairs = {'output': [], 'reference': []}
 
@@ -109,7 +112,7 @@ def inferences(model, tokenizer, data, word, model_id, token = 512, top_p = 0.9,
                      'perplexity_score': perplexity_score,
                      'perplexity_z_score': perplexity_z_score
                     }
-    
+    # Data Saving
     try:
         with open('output_metric.json', 'r') as file:
             output_metric_json = json.load(file)
@@ -122,7 +125,8 @@ def inferences(model, tokenizer, data, word, model_id, token = 512, top_p = 0.9,
     
     with open('output_metric.json', 'w') as file:
         json.dump(output_metric_json, file, indent=4)
-        
+
+# Method for One-Shot Inference on all Samples, Including the Chat Template Definition for each Model 
 def inferences_one_shot(model, tokenizer, data, word, model_id, token = 512, top_p = 0.9, temperature = 0.6, gemma = False, minerva = False, shot = False):
     output_pairs = {'output': [], 'reference': []}
 
@@ -205,7 +209,8 @@ def inferences_one_shot(model, tokenizer, data, word, model_id, token = 512, top
     
     with open('output_metric_total_one_shot.json', 'w') as file:
         json.dump(output_metric_json, file, indent=4)
-        
+
+# Method for Two-Shot Inference on all Samples, Including the Chat Template Definition for each Model 
 def inferences_few_shot(model, tokenizer, data, word, model_id, token = 512, top_p = 0.9, temperature = 0.6, gemma = False, minerva = False, shot = False):
     output_pairs = {'output': [], 'reference': []}
 
@@ -300,13 +305,15 @@ def inferences_few_shot(model, tokenizer, data, word, model_id, token = 512, top
     
     with open('output_metric_total_few_shot.json', 'w') as file:
         json.dump(output_metric_json, file, indent=4)
-              
+
+# Model e Tokenizer Definitions
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 model_id = "model_id"
 model = AutoModelForCausalLM.from_pretrained(model_id, device_map="auto")
 tokenizer = AutoTokenizer.from_pretrained(model_id)
 
+# Inferences
 word = "word"
 inferences(model, tokenizer, data, word, model_id)
 #word = "word_shot_learning"
