@@ -1,5 +1,6 @@
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
+# Token Hugging Face
 token = "token"
 #model_name_or_path = "meta-llama/Llama-3.2-3B-Instruct"
 #model_name_or_path = "FairMind/Minerva-3B-Instruct-v1.0"
@@ -7,6 +8,7 @@ token = "token"
 model_name_or_path = "Qwen/Qwen2-7B-Instruct"
 #model_name_or_path = "occiglot/occiglot-7b-eu5-instruct"
 
+# Model Import
 model = AutoModelForCausalLM.from_pretrained(
     pretrained_model_name_or_path=model_name_or_path,
     token=token,
@@ -15,30 +17,33 @@ model = AutoModelForCausalLM.from_pretrained(
 )
 
 tokenizer = AutoTokenizer.from_pretrained(model_name_or_path, token=token)
-tokenizer.pad_token = tokenizer.eos_token
+tokenizer.pad_token = tokenizer.eos_token # Necessary for Training
 tokenizer.padding_side = 'right'
 
 import json
 
+# Train Dataset
 with open('/home/gbarbaro/UniQA/lora_ft_reduced_chat/it_train.json', 'r') as file:
     data = json.load(file)
     
 from sklearn.model_selection import train_test_split
 
+# Seed e Split Methods
 seed = 36
 train_data, validation_data = train_test_split(data, test_size=0.2, shuffle=True, random_state=seed)
 
+# Datasets Creation
 from datasets import Dataset, DatasetDict
 
 def convert_to_dict(data): 
     result = {k: [dic[k] for dic in data] for k in data[0]} 
     return result 
 
-# dateset di train
+# Train Dateset
 dataset_dict = convert_to_dict(train_data)
 dataset_train = Dataset.from_dict(dataset_dict)
 
-# dataset di validazione
+# Validation Dataset
 dataset_dict = convert_to_dict(validation_data)
 dataset_validation = Dataset.from_dict(dataset_dict)
 
