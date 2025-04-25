@@ -290,17 +290,21 @@ SCHEDULER_NAME = "scheduler.pt"
 SCALER_NAME = "scaler.pt"
 FSDP_MODEL_NAME = "pytorch_model_fsdp"
 
+# Changes  ---
 import evaluate as ev
 
 word=""
 
+# Bert Score Import
 bertscore = ev.load("bertscore")
 
+# Mean Method
 def mean(list):
     mean = sum(list)/len(list)
             
     return mean
 
+# 
 def process_texts(predicted_texts, reference_texts, word):
     processed_predicted_texts = []
     processed_reference_texts = []
@@ -320,6 +324,8 @@ def process_texts(predicted_texts, reference_texts, word):
             processed_reference_texts.append(reference)
 
     return processed_predicted_texts, processed_reference_texts
+
+# ---
 
 class Trainer:
     """
