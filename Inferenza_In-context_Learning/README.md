@@ -1,6 +1,6 @@
 ## Notebook
 
-Contains the code relating to the calculation of in-context learning inferences: zero-shot, one-shot, two-shot.
+Contains the code relating to the model loading e additional code for inferences regarding variables to be given as input to the inference methods for each model and each type of in-context learning.
 
 ## Output
 
@@ -18,4 +18,4 @@ Contains the output of the in-context learning inference on test set depending o
 
 ## Inferenza_globale.py
 
-This is the script that joins the notebook code for all the inferences.
+Contains the code relating to the calculation of in-context learning inferences: zero-shot, one-shot, two-shot.
