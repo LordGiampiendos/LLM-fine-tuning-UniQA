@@ -4,12 +4,15 @@ import nest_asyncio
 import os
 from ragas.llms import LangchainLLMWrapper
 from langchain_openai import ChatOpenAI
-    
+
+# Necessario per il calcolo delle metriche
 nest_asyncio.apply()
 
+# Token e Modello Scelto
 os.environ["OPENAI_API_KEY"] = "token"
 evaluator_llm = LangchainLLMWrapper(ChatOpenAI(model="gpt-4o-mini"))
 
+# Indici delle Righe da Considerare nel Calcolo
 index = [0, 1, 1156, 1158, 1162, 1168, 1170, 1184, 1238, 1241]
 
 import json
@@ -23,6 +26,7 @@ j=0
 output = [data[j]['output_pairs']['output'][i] for i in index] 
 reference = [data[j]['output_pairs']['reference'][i] for i in index]
 
+# Carica il dataset di test 
 with open('/home/gbarbaro/UniQA/lora_ft_reduced_chat/it_test.json', 'r') as file:
     data_input = json.load(file)
 
@@ -36,19 +40,22 @@ for i in index:
         retrieved_contexts.append(data_input[i]["input"][indice + len("Documents:\n"):].strip().split('\n')) 
     else: retrieved_contexts.append([])
 
-# Converti output_pairs in un formato compatibile con Hugging Face Dataset 
+# Converti tutto in un formato compatibile con Hugging Face Dataset 
 dataset_dict = {"user_input": user_input, "reference": reference, "response": output, "retrieved_contexts": retrieved_contexts} 
 hf_dataset = Dataset.from_dict(dataset_dict)
 
+# Definizione Metriche
 metrics = [
     AnswerCorrectness(llm = evaluator_llm),
     Faithfulness(llm = evaluator_llm),
 ]
 
+# Calcolo e Stampa
 results = evaluate(dataset=hf_dataset, metrics=metrics, raise_exceptions=False)
 
 print(results)
 
+# Salvataggio
 try:
     with open('output_metric_RAG.json', 'r') as file:
         output_metric_json = json.load(file)
