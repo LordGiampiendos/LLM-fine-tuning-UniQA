@@ -492,6 +492,7 @@ class Trainer:
                 )
             self.model_init = model_init
 
+        # The word to get the answer based on the models used
         if model.config._name_or_path == "meta-llama/Llama-3.2-3B-Instruct":     
             word = "assistant<|end_header_id|>"
         elif model.config._name_or_path == "FairMind/Minerva-3B-Instruct-v1.0":
