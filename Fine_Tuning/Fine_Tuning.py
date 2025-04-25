@@ -49,6 +49,7 @@ dataset_validation = Dataset.from_dict(dataset_dict)
 
 instruction = "Sei Unipa-GPT, il chatbot e assistente virtuale dell'Università degli Studi di Palermo.\nRispondi in modo cordiale e colloquiale alle domande fornite.\nSe ricevi un saluto, rispondi salutando e presentandoti.\nSe ricevi una domanda per quanto riguarda l'Università degli Studi di Palermo, rispondi facendo affidamento sulla documentazione che ti è stata consegnata insieme alla domanda.\nSe non sai rispondere, chiedi scusa e suggerisci di consultare il sito dell'Università [https://www.unipa.it/], non inventare risposte.\nRispondi in italiano.\n"
 
+# Chat Template
 if model.config._name_or_path == "FairMind/Minerva-3B-Instruct-v1.0":
     def format_chat_template(row):
         row_json = """  """ + instruction + """ 
@@ -85,10 +86,12 @@ tokenized_datasets_validation = tokenized_datasets_validation.remove_columns(['i
 tokenized_datasets_train = tokenized_datasets_train.rename_column('output', 'labels')
 tokenized_datasets_validation = tokenized_datasets_validation.rename_column('output', 'labels')
 
+# Global Dataset 
 tokenized_datasets = DatasetDict({"train": tokenized_datasets_train, "validation": tokenized_datasets_validation})
 
 from trl import SFTTrainer, SFTConfig
 
+# Training Args
 training_args = SFTConfig(
     output_dir="/home/gbarbaro/output_dir",
     num_train_epochs=30,
@@ -108,6 +111,7 @@ training_args = SFTConfig(
     eval_on_start=True
 )  
 
+# Training with SFTTrainer
 trainer = SFTTrainer(
     model=model,
     tokenizer=tokenizer,
