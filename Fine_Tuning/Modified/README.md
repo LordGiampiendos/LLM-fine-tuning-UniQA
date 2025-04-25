@@ -1,8 +1,12 @@
 ## Trainer.py
 
-Questa è una versione modificata del trainer di Hugging Face in cui è stato aggiunto durante la fase di addestramento e di valutazione il calcolo di un ulteriore metrica oltre la loss: il bert f1 score di evaluate.
+This is a modified version of the Hugging Face trainer where the calculation of an additional metric in addition to the loss has been added during the training and evaluation phase: the evaluate bert f1 score.
 
-Sono stati inseriti:
-* delle funzioni per importare il bert score,
-* delle funzioni per l'estrazione dei logits e delle labels, il loro decoding con il tokenizer e il loro pre-processing, 
+The following have been inserted:
+* a functions to import the bert score,
+* some functions for extracting logits and labels, decoding them with the tokenizer and pre-processing them,
+* a word management part for extracting the output responses of the considered models.
 
+The following have been modified:
+* the methods that manage training and evaluation phases, in particular, the part relating to returns with the addition of the score in addition to the loss,
+* printing methods, which will no longer print just the loss but also the f1 score, both for training and evaluation.
