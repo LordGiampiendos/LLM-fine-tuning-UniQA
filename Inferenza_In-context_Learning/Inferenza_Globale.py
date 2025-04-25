@@ -1,5 +1,6 @@
 import json
 
+# Datset di test
 with open('/path/Dataset/it_test.json', 'r') as file:
     data = json.load(file)
 
@@ -7,9 +8,11 @@ instruction = "Sei Unipa-GPT, il chatbot e assistente virtuale dell'Università 
 
 from huggingface_hub import login
 
+# Login Hugging Face
 token = "token"
 login(token=token)
 
+# Metodo per l
 def inference(model, tokenizer, messages, word, token, top_p, temperature, minerva):
     if minerva:
         prompt = messages
